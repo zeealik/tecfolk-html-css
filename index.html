@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Assignment 1</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="media.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#icon').click(function(){
+					$('ul').toggleClass('show')
+				});
+			});
+		</script>
+	<body>
+		<!-- NAVIGATION MENU  -->
+
+			<nav>
+				<!-- <div class="navbar-container"> -->
+				<!-- LOGO OR TITLE OF PAGE  -->
+				<!-- <div class="logo-container">
+						<input type="checkbox" id="check" />
+						<label for="check" class="checkbtn">
+							<i class="fas fa-bars"></i>
+						</label>
+						<img
+							class="brand-img"
+							src="./images/tecfolk-logo-white-trasprant.png"
+							alt="tecfolk"
+						/>
+					</div> -->
+
+				<!-- MENU ITEMS  -->
+				<label class="logo">TECFOLK</label>
+				<ul>
+					<li><a class="active" href="#a">Home</a></li>
+					<li><a href="#a">about us</a></li>
+					<li><a href="#a">who we are</a></li>
+					<li><a href="#a">Portfolio</a></li>
+					<li><a href="#a">what we do</a></li>
+				</ul>
+				<label id="icon" class="checkbtn">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+		</div>
+		<main>
+			<!-- HERO SECTION STARTS HERE  -->
+			<div class="hero-banner">
+				<div class="hero-section">
+					<div class="container">
+						<div class="hero-content">
+							<span>TECFOLK</span>
+							<h1>SOFTWARE SOLUTIONS</h1>
+
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt labore et dolore magna aliqe at
+								elementum eu facilisis sed odio. Amet mattis vulputate enim
+								nulla aliquet porttitor.
+							</p>
+							<div class="button">
+								<a class="btn-one" href="#connect">CONNECT</a>
+								<a class="btn-two" href="#visit">VISIT</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- SERVICES  -->
+			<div class="services">
+				<div class="container">
+					<div class="service">
+						<h2>Web Development</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt labore et dolore
+						</p>
+					</div>
+					<div class="service">
+						<h2>App Development</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt labore et dolore
+						</p>
+					</div>
+					<div class="service">
+						<h2>Game Development</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt labore et dolore
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- OFFERS  -->
+			<div class="offer">
+				<div class="container">
+					<div class="offer-content">
+						<h1>OUR OFFERS</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt
+						</p>
+					</div>
+					<div class="offer-img">
+						<img src="./images/tecfolk.jpg" alt="tecfolk" />
+					</div>
+				</div>
+			</div>
+
+			<!-- USERS REVIEW -->
+			<div class="rev-section">
+				<div class="container">
+					<div class="review-title">WHAT OUR CLIENTS SAYS ABOUT US</div>
+					<div class="reviews">
+						<div class="review">
+							<div class="head-review">
+								<img src="./images/tecfolk.jpg" width="250px" />
+							</div>
+							<div class="body-review">
+								<div class="name-review">Zeeshan Ali</div>
+								<div class="place-review">Pakistan</div>
+								<div class="desc-review">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt
+								</div>
+							</div>
+						</div>
+
+						<div class="review">
+							<div class="head-review">
+								<img src="./images/tecfolk.jpg" width="250px" />
+							</div>
+							<div class="body-review">
+								<div class="name-review">John Doe</div>
+								<div class="place-review">United States</div>
+								<div class="desc-review">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt
+								</div>
+							</div>
+						</div>
+						<div class="review">
+							<div class="head-review">
+								<img src="./images/tecfolk.jpg" width="250px" />
+							</div>
+							<div class="body-review">
+								<div class="name-review">Ali Khan</div>
+								<div class="place-review">Pakistan</div>
+								<div class="desc-review">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- FOOTER  -->
+		<footer>
+			<div class="footer-content">
+				<h2>TECFOLK PRIVATE LIMITED</h2>
+				<p>
+					Developed by <strong>TecFolk </strong>| Copyrights © 2019, All rights
+					reserved
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,396 @@
+/* iPad Pro  */
+@media (min-width: 1024px) {
+	/* new */
+	label.logo {
+		font-size: 32px;
+		padding-left: 50px;
+	}
+	nav ul {
+		margin-right: 20px;
+	}
+	nav a {
+		font-size: 17px;
+    }
+    nav {
+        position: fixed;
+        z-index: 1;
+    }
+
+	/* new ends  */
+	.container {
+		width: 80%;
+	}
+	.navbar-container {
+		width: 80%;
+	}
+	.logo-container {
+		width: 200px;
+		height: auto;
+		font-size: 40px;
+		margin-right: 20px;
+	}
+	.hero-content span {
+		font-size: 35px;
+	}
+	.hero-content .btn-one {
+		padding: 12px 18px;
+		background-color: rgb(21, 22, 18);
+		border-radius: 5px;
+		border: 2px solid #fff;
+		color: white;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	.offer-content h1 {
+		width: auto;
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.offer-img {
+		width: 70%;
+	}
+	.offer-img img {
+		width: 100%;
+	}
+	.hero-content .btn-two {
+		padding: 12px 18px;
+		background-color: rgb(21, 22, 18);
+		border-radius: 5px;
+		border: 2px solid rgb(0, 0, 0);
+		color: white;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	.navbar-list a {
+		font-size: 14px;
+		padding: 7px 3px;
+		border-radius: 3px;
+	}
+	.service h2 {
+		font-size: 19px;
+	}
+	.services .container {
+		width: 80%;
+	}
+	.rev-section {
+		background-size: cover;
+	}
+	.review-title {
+		font-size: 35px;
+	}
+	.review {
+		min-width: 200px;
+	}
+}
+
+/* iPhone X  */
+
+@media screen and (max-width: 420px) {
+	.navbar-container {
+		width: 90%;
+		height: 70px;
+	}
+	.logo-container {
+		margin: 15px 0px;
+	}
+	.navbar-list {
+		display: none;
+	}
+	.hero-banner {
+		background-size: cover;
+	}
+	.hero-section {
+		padding: 24% 0 3%;
+    }
+    .hero-section .container {
+        width: 90%;
+    }
+	.hero-content {
+		width: 100%;
+		text-align: center;
+		flex-grow: 1;
+		color: white;
+	}
+	.hero-content .btn-one {
+		padding: 14px;
+		font-size: 12px;
+	}
+	.hero-content .btn-two {
+		padding: 14px;
+		font-size: 12px;
+	}
+	.button {
+		justify-content: center;
+	}
+	.service {
+		background-color: rgba(12, 6, 6, 0.2);
+		border-radius: 10px;
+		padding: 4% 6%;
+	}
+	.service h2 {
+		margin-bottom: 10px;
+		font-weight: 800;
+		font-size: 25px;
+		text-align: center;
+	}
+	.service p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.services {
+		background-size: cover;
+	}
+	.services .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.offer {
+		background-size: cover;
+	}
+	.offer .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.offer-content {
+		width: 100%;
+		padding: 2%;
+		margin-bottom: 25px;
+	}
+	.offer-content h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.offer-content p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.offer-img img {
+		justify-content: flex-start;
+		background-size: cover;
+		border-radius: 10px;
+		width: 100%;
+		height: 15vh;
+	}
+	.rev-section {
+		background-size: cover;
+
+		text-align: center;
+    }
+    .reviews {
+        margin: 0;
+    }
+	.review-title {
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: rgb(0, 0, 0);
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.rev-section .container {
+		width: 100%;
+	}
+	.head-review {
+		margin: 1.5rem auto;
+		width: 100px;
+		height: 100px;
+	}
+	.footer-content {
+		padding: 5%;
+	}
+	.desc-review {
+		font-size: 16px;
+	}
+}
+
+/* iPhone 6/7/8  */
+@media screen and (min-width: 620px) and (max-width: 910px) {
+	.navbar {
+		width: 100%;
+	}
+	.navbar-container {
+		width: 90%;
+		height: 70px;
+	}
+	.navbar-list {
+		display: none;
+	}
+	.hero-section .container {
+		width: 90%;
+	}
+	.hero-content {
+		width: 80%;
+		color: #fff;
+	}
+	.services .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.service h2 {
+		margin-bottom: 10px;
+		font-weight: 800;
+		font-size: 25px;
+		text-align: center;
+	}
+	.service p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.services {
+		background-size: cover;
+	}
+	.offer .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.offer {
+		background-size: cover;
+	}
+	.offer-content {
+		width: 100%;
+		padding: 2%;
+		margin-bottom: 25px;
+	}
+	.offer-content h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.offer-content p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.rev-section {
+		background-size: cover;
+
+		text-align: center;
+	}
+	.review-title {
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: rgb(0, 0, 0);
+		margin-bottom: 20px;
+		text-align: center;
+    }
+    .reviews {
+        margin: 0;
+    }
+	.review {
+		min-width: 200px;
+	}
+	.rev-section .container {
+		width: 100%;
+	}
+	.head-review {
+		margin: 1.5rem auto;
+		width: 100px;
+		height: 100px;
+	}
+	.footer-content {
+		padding: 5%;
+	}
+	.desc-review {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 909px) {
+    label.logo {
+        padding: 0 50px;
+    }
+    nav {
+        position: fixed;
+        z-index: 1;
+    }
+	nav #icon {
+		display: block;
+	}
+	nav ul {
+		position: fixed;
+		height: 100vh;
+		background: #2f3640;
+		top: 80px;
+		left: -50%;
+		text-align: center;
+	}
+	nav li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav a {
+		font-size: 20px;
+	}
+	a.active,
+	a:hover {
+		border: none;
+		color: #3498db;
+    }
+    nav ul.show {
+        position: fixed;
+        left: 0; 
+    }
+}
+
+
+/* 950px to 1023px */
+@media screen and (min-width: 950px) and (max-width: 1023px) {
+	label.logo {
+        padding: 0 50px;
+    }
+    nav {
+        position: fixed;
+        z-index: 1;
+    }
+	nav #icon {
+		display: block;
+	}
+	nav ul {
+		position: fixed;
+		height: 100vh;
+		background: #2f3640;
+		top: 80px;
+		left: -50%;
+		text-align: center;
+	}
+	nav li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav a {
+		font-size: 20px;
+	}
+	a.active,
+	a:hover {
+		border: none;
+		color: #3498db;
+    }
+    nav ul.show {
+        position: fixed;
+        left: 0; 
+	}
+	.offer .container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.offer-content {
+		width: 100%;
+		text-align: center;
+	}
+	.offer-img img {
+		width: 100%;
+	}
+	.offer-content h1 {
+		width: auto;
+		font-size: 35px;
+		margin-bottom: 0;
+	}
+	.rev-section {
+		background-size: cover;
+	}
+	.review-title {
+		font-size: 35px;
+	}
+}
